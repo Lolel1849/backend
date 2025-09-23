@@ -11,14 +11,6 @@
   // Specify modules type (ES modules)
   "type": "module",
 
-  // Optional: where your static assets live (frontend build)
-  "assets": {
-    "directory": "./dist"
-  },
-
-  // Optional: routes if you want to bind the Worker to a specific URL pattern
-  // "routes": ["https://example.com/*"],
-
   // Specify environment secrets (you can also add them via CLI)
   "vars": {
     "TMDB_API_KEY": "304ca56b1b7b57ca7a47d9b59946be94" // This is just a placeholder
